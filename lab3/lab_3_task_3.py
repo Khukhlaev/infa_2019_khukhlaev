@@ -107,6 +107,8 @@ house(650, 220, 750, 300)
 tree(400, 240, 1.5, 30)
 tree(800, 220, 1.32, 20)
 
+# Animating clouds
+
 k = 800
 
 def moveleft():
@@ -120,5 +122,7 @@ def moveleft():
         moveObjectBy(i+4, -5, 0)
 
 onTimer(moveleft, 50)
+
+# ToDo
 
 run()
