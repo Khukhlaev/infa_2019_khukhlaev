@@ -1,8 +1,5 @@
-
 from graph import *
 import math as m
-from typing import Any
-
 
 #________________________________________________________
 
@@ -122,7 +119,5 @@ def moveleft():
         moveObjectBy(i+4, -5, 0)
 
 onTimer(moveleft, 50)
-
-# ToDo
 
 run()

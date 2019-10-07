@@ -1,6 +1,5 @@
 from graph import *
 import math as m
-from typing import Any
 
 penSize(1)
 windowSize(1000, 500)
